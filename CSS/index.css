@@ -302,3 +302,23 @@ body {
   width: 100%;
   display: none;
 }
+.author-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 68%;
+  flex-wrap: wrap;
+}
+.author-container .author-img {
+  padding: 20px;
+  flex: 1;
+}
+.author-container .author-name {
+  flex: 1;
+  padding: 20px;
+  font-size: 3rem;
+}
+.author-container .author-body {
+  flex: 1;
+  padding: 20px;
+}
